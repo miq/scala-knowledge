@@ -1,4 +1,4 @@
-package de.miq.knowhow
+package de.miq.knowhow.properties
 
 import reflect.BeanProperty
 
