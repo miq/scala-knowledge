@@ -1,4 +1,4 @@
-package de.miq.knowhow.option
+package de.miq.knowledge.option
 
 
 object OptionDealer {

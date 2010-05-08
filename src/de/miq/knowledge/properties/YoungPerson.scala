@@ -1,4 +1,4 @@
-package de.miq.knowhow.properties
+package de.miq.knowledge.properties
 
 
 class YoungPerson(surname: String, firstname: String, age: Int) extends Person(surname, firstname, age) {

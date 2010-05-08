@@ -1,4 +1,4 @@
-package de.miq.knowhow.properties
+package de.miq.knowledge.properties
 
 
 object Runner {
