@@ -18,8 +18,24 @@ object PatternMatcher {
     println("Full name: " + getName.toString)
   }
 
+  def constantPatterns(x: Any): Unit = {
+    x match {
+      case "Scala rocks" => println("Yeah, true!")
+      case PatternMatcher => println("A singleton object: The pattern matcher!")
+      case 667 => println("The neighbour of the beast")
+      case true => println("The truth is out there")
+      case _ => println("Something unknown:" + x.toString)
+    }
+  }
+
   def main(args: Array[String]) {
     // TODO show examples for the different ways of pattern matching in Scala
     extraction
+    println("Constant patterns match any literals or singleton objects:")
+    constantPatterns(true)
+    constantPatterns(PatternMatcher)
+    constantPatterns("Scala rocks")
+    constantPatterns("A string")
+    constantPatterns(667L)
   }
 }
