@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Testing">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/scalatest-1.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/junit-4.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scalatest_2.9.0-1.8.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
